@@ -13,6 +13,8 @@ namespace KlantSimulator_BL.Model
         public string AchterNaam { get; }
         public Adres Adres { get; }
 
+
+
         public Klant(int klantNummer,string voorNaam,string achterNaam,Adres adres)
         {
             KlantNummer = klantNummer;
@@ -23,7 +25,7 @@ namespace KlantSimulator_BL.Model
 
         public override string ToString()
         {
-            return $"{KlantNummer}|{VoorNaam}|{AchterNaam}|{Adres.Straatnaam}|{Adres.HuisNr}|{Adres.Gemeente}|{Adres.Postcode}";
+            return $"{KlantNummer}|{VoorNaam}|{AchterNaam}|{Adres.ToString()}";
         }
 
     }

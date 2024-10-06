@@ -20,5 +20,10 @@ namespace KlantSimulator_BL.Model
             this.Gemeente = gemeente;
             this.Postcode = postcode;
         }
+
+        public override string ToString()
+        {
+            return $"{Straatnaam}|{HuisNr}|{Gemeente}|{Postcode}";
+        }
     }
 }
