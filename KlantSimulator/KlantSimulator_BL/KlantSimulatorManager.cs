@@ -14,7 +14,7 @@ namespace KlantSimulator_BL
         private List<String> achternamen;
         private List<String> straatnamen;
         private List<String> gemeentes;
-        private List<String> postcodes;
+        private List<int> postcodes;
 
 
         public KlantSimulatorManager()
@@ -22,11 +22,40 @@ namespace KlantSimulator_BL
 
         }
 
-        public Klant KlantGenerator(int amount)
+        public void KlantGenerator(int amount)
         {
-            // TODO
-            Klant k = new Klant();
-            return k;
+            // Zet alle gegevens van txt naar variabel (voornamen, achternamen,...)
+            LeesGegevens();
+
+            while (amount > 0)
+            {
+                Random r = new Random();
+
+                // Random keuze 
+                int klantNr = KlantNrGenerator();
+                string voornaam = voornamen[r.Next(voornamen.Count)];
+                string achternaam = achternamen[r.Next(achternamen.Count)];
+                string straatnaam = straatnamen[r.Next(straatnamen.Count)];
+                string huisNr = HuisNrGenerator();
+                int gemeenteIndex = r.Next(postcodes.Count);
+                string gemeente = gemeentes[gemeenteIndex];
+                int postcode = postcodes[gemeenteIndex];
+
+                // Zet random keuze in Klant
+                Adres adres = new Adres(straatnaam, huisNr, gemeente, postcode);
+                Klant klant = new Klant(klantNr, voornaam, achternaam, adres);
+
+                // Kijk of de voornaam en achternaam uniek is
+                foreach (Klant k in klanten)
+                {
+                    if (k.VoorNaam != voornaam && k.AchterNaam != achternaam)
+                    {
+                        klanten.Add(klant);
+                        amount--;
+                    }
+                }
+            }
+
         }
 
         // Schrijft alle klanten op txt file
@@ -35,13 +64,13 @@ namespace KlantSimulator_BL
             // TODO
         }
 
-        // Leest alle gegevens die in txt files zijn opgeslagen
+        // Leest alle gegevens die in txt files zijn opgeslagen (voornamen.txt -> voornamen, achternamen.txt -> achternamen,...)
         public void LeesGegevens()
         {
             // TODO
         }
 
-        // Genereert klantnr
+        // Genereert klantnr op basis van voorwaarden
         public int KlantNrGenerator()
         {
             // TODO
@@ -49,7 +78,7 @@ namespace KlantSimulator_BL
 
         // T
 
-        // Genereert HuisNr 1/10 kans op letter
+        // Genereert HuisNr 1/10 kans op letter (niet groter dan 150)
         public string HuisNrGenerator()
         {
             // TODO
