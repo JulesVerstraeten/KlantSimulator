@@ -65,9 +65,43 @@ namespace KlantSimulator_BL
         }
 
         // Leest alle gegevens die in txt files zijn opgeslagen (voornamen.txt -> voornamen, achternamen.txt -> achternamen,...)
+        // moeten we niet bij leesgegevens de namen van de bestanden meegeven als parameter
+        //postcodes en gemeentes zijn toch samen we hebben alleen 1 lijst nodig
         public void LeesGegevens()
         {
             // TODO
+            try
+            {
+                using(StreamReader sr = new StreamReader("voornamen.txt"))
+                {
+                    string line = sr.ReadToEnd();
+                    voornamen = line.Split(',').Select(x => x.Trim()).ToList();
+                }
+
+                using(StreamReader sr = new StreamReader("achternamen.txt"))
+                {
+                    string line = sr.ReadToEnd();
+                    achternamen = line.Split(',').Select(n  => n.Trim()).ToList();
+                }
+
+                using(StreamReader sr = new StreamReader("straatnamen"))
+                {
+                    string line = sr.ReadToEnd();
+                    straatnamen = line.Split(',').Select(l => l.Trim()).ToList();
+                }
+
+                using(StreamReader sr = new StreamReader("gemeentes"))
+                {
+                    string line = sr.ReadToEnd();
+                    gemeentes = line.Split(',').Select(n =>n.Trim()).ToList();
+                }
+
+            }catch (Exception ex) 
+            
+            {
+                Console.WriteLine("Er is fout opgetreden bij het lezen van de gegevens.",ex.Message);
+            }
+
         }
 
         // Genereert klantnr op basis van voorwaarden
