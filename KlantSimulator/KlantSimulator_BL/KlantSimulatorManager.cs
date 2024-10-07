@@ -59,9 +59,22 @@ namespace KlantSimulator_BL
         }
 
         // Schrijft alle klanten op txt file
-        public void SchrijfKlanten()
+        public void SchrijfKlanten(string fileName)
         {
-            // TODO
+            if (File.Exists(fileName))
+            {
+                File.Delete(fileName);
+            } else
+            {
+                File.Create(fileName);
+            }
+
+            foreach (Klant k in klanten) {
+                using (StreamWriter sw = new StreamWriter(fileName))
+                {
+                    sw.WriteLine(k.ToString());
+                } 
+            }
         }
 
         // Leest alle gegevens die in txt files zijn opgeslagen (voornamen.txt -> voornamen, achternamen.txt -> achternamen,...)
@@ -115,7 +128,16 @@ namespace KlantSimulator_BL
         // Genereert HuisNr 1/10 kans op letter (niet groter dan 150)
         public string HuisNrGenerator()
         {
-            // TODO
+            Random random = new Random();
+            string nummer = random.Next(1, 50).ToString();
+            int letterNodig = random.Next(1, 11);
+            if (letterNodig == 1)
+            {
+                char randomLetter = (char)random.Next('a', 'z' + 1);
+                nummer += randomLetter;
+            }
+
+            return nummer;
         }
     }
 }

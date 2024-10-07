@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "/pbIGyWEf/j4lrfpZuJuqiqEbJzOveLeT0AUVVa/nC9NPwDXPXeX0SRnT2/3yllhn2hXNSSrbzrTwJt5MM1wqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\souli\\Downloads\\klantSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
+=======
+  "dgSpecHash": "nYZLyh5T3eY9gidXMrTM8YESpm616GHHAgo9Y0jFam85V7VkHJ6ScUr+nsL6lL0VptaV8frx2WHgQmjVOOph+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
+>>>>>>> b3103e7c0bf2016b10fefdca7fbb81e2843f33aa
   "expectedPackageFiles": [],
   "logs": []
 }

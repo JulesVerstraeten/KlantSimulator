@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\souli\\Downloads\\klantSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\souli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
+        "projectName": "ConsoleAppTestManager",
+        "projectPath": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
+        "packagesPath": "C:\\Users\\HP VICTUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b3103e7c0bf2016b10fefdca7fbb81e2843f33aa
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +75,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+>>>>>>> b3103e7c0bf2016b10fefdca7fbb81e2843f33aa
         }
       }
     }

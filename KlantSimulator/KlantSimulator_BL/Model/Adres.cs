@@ -3,27 +3,55 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace KlantSimulator_BL.Model
-{
-    public class Adres
-    {
-        public string Straatnaam;
-        public string HuisNr;
-        public string Gemeente;
-        public int Postcode;
+namespace KlantSimulator_BL.Model {
+    public class Adres {
+        public string straatnaam;
 
-        public Adres(string straatnaam, string huisNr, string gemeente, int postcode)
-        {
-            this.Straatnaam = straatnaam;
-            this.HuisNr = huisNr;
-            this.Gemeente = gemeente;
-            this.Postcode = postcode;
+        private string Straatnaam {
+            get { return straatnaam; }
+            set { straatnaam = value; }
         }
 
-        public override string ToString()
-        {
+        public string huisNr;
+        private string HuisNr {
+            get { return huisNr; }
+            set { huisNr = value; }
+        }
+
+        public string gemeente;
+        public string Gemeente {
+            get { return gemeente; }
+            set { gemeente = value; }
+        }
+
+        public int postcode;
+        public int Postcode {
+            get { return postcode; }
+            set {
+                if (value < 1000 || value > 9999) {
+                    throw new Exception("Poscode is kleiner dan 1k of groter dan 9999");
+                } else {
+                    postcode = value;
+                }
+            }
+        }
+
+        public Adres(string straatnaam, string huisNr, string gemeente, int postcode) {
+            Straatnaam = straatnaam;
+            HuisNr = huisNr;
+            Gemeente = gemeente;
+            Postcode = postcode;
+        }
+
+        public override string ToString() {
             return $"{Straatnaam}|{HuisNr}|{Gemeente}|{Postcode}";
         }
     }
 }
+
