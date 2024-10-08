@@ -11,26 +11,26 @@ using System.Threading.Tasks;
 
 namespace KlantSimulator_BL.Model {
     public class Adres {
-        public string straatnaam;
+        private string straatnaam;
 
-        private string Straatnaam {
+        public string Straatnaam {
             get { return straatnaam; }
             set { straatnaam = value; }
         }
 
-        public string huisNr;
-        private string HuisNr {
+        private string huisNr;
+        public string HuisNr {
             get { return huisNr; }
             set { huisNr = value; }
         }
 
-        public string gemeente;
+        private string gemeente;
         public string Gemeente {
             get { return gemeente; }
             set { gemeente = value; }
         }
 
-        public int postcode;
+        private int postcode;
         public int Postcode {
             get { return postcode; }
             set {

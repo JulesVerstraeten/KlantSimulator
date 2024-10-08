@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\klantsimulatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\model\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,26 +36,27 @@
               "RelativeDocumentMoniker": "KlantSimulator_BL\\KlantSimulatorManager.cs",
               "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulatorManager.cs",
               "RelativeToolTip": "KlantSimulator_BL\\KlantSimulatorManager.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAA7AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAH0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T08:56:11.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Adres.cs",
               "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Adres.cs",
               "RelativeDocumentMoniker": "KlantSimulator_BL\\Model\\Adres.cs",
               "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Adres.cs",
               "RelativeToolTip": "KlantSimulator_BL\\Model\\Adres.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA/AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:47:35.171Z"
+              "WhenOpened": "2024-10-06T08:47:35.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Klant.cs",
               "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Klant.cs",
               "RelativeDocumentMoniker": "KlantSimulator_BL\\Model\\Klant.cs",
@@ -63,7 +64,8 @@
               "RelativeToolTip": "KlantSimulator_BL\\Model\\Klant.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:47:19.509Z"
+              "WhenOpened": "2024-10-06T08:47:19.509Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,37 +1,24 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\souli\\Downloads\\klantSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj": {}
+    "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\souli\\Downloads\\klantSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj": {
+    "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\souli\\Downloads\\klantSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
+        "projectUniqueName": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
         "projectName": "KlantSimulator_BL",
-        "projectPath": "C:\\Users\\souli\\Downloads\\klantSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
-        "packagesPath": "C:\\Users\\souli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\souli\\Downloads\\klantSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\obj\\",
+        "projectPath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
+        "packagesPath": "C:\\Users\\jules\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\souli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
-        "projectName": "KlantSimulator_BL",
-        "projectPath": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
-        "packagesPath": "C:\\Users\\HP VICTUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\HP VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b3103e7c0bf2016b10fefdca7fbb81e2843f33aa
+          "C:\\Users\\jules\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +41,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -75,11 +65,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
->>>>>>> b3103e7c0bf2016b10fefdca7fbb81e2843f33aa
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

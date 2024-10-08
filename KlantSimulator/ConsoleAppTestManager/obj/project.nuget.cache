@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "3TdQrcwUJyVNV+A12Uwn2WpS2rubBioVbwXVEHRodNf+2Tsna2hQXF4FkHJCRo9z7ov+LE/hRBZYgs8s/GAmdQ==",
+  "dgSpecHash": "oPniYzTPALMulML/R6IV0oF1pvviwFXtj4hre8llYrarcd042UxYWP5Yf/dN6JNplaF4cY0i2swznHb3gUeG+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\souli\\Downloads\\klantSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
-=======
-  "dgSpecHash": "OJVyr7CpYOU52wgmjKz2L8TZ7HRLDlBR5pvTmFKj/YqYbFd6t25bWpiqZHLRAQpEN5j7v9Dl3JViyOQH5PCSsA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
->>>>>>> b3103e7c0bf2016b10fefdca7fbb81e2843f33aa
+  "projectFilePath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

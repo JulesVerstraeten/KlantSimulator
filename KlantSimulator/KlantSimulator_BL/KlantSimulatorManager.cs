@@ -123,7 +123,6 @@ namespace KlantSimulator_BL
             // TODO
         }
 
-        // T
 
         // Genereert HuisNr 1/10 kans op letter (niet groter dan 150)
         public string HuisNrGenerator()
