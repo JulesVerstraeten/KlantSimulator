@@ -6,8 +6,12 @@ namespace ConsoleAppTestManager
     {
         static void Main(string[] args)
         {
-            KlantSimulatorManager manager = new KlantSimulatorManager(@"C:\Users\jules\Documents\HoGent\SEM2\Software_Ontwerp\KlantenSimulator\KlantSimulator");
-            manager.KlantGenerator(600);
+            Console.Write("Pad voor files : ");
+
+            KlantSimulatorManager manager = new KlantSimulatorManager(Console.ReadLine());
+
+            Console.Write("Hoeveel klanten wilt u genereren? : ");
+            manager.KlantGenerator(int.Parse(Console.ReadLine()));
         }
     }
 }

@@ -65,8 +65,6 @@ namespace KlantSimulator_BL
             }
 
             SchrijfKlanten();
-            Console.WriteLine("Schrijven klaar!");
-            Console.WriteLine($"{klanten.Count} aantal klanten gegenereerd");
         }
 
         private bool KlantBestaatAl(Klant klant)
@@ -111,7 +109,10 @@ namespace KlantSimulator_BL
                     foreach (Klant line in klanten)
                         writer.WriteLine(line.ToString());
                 }
-            }catch (Exception ex) { throw new Exception("SchrijfKlanten", ex); }
+
+                Console.WriteLine($"Klanten opgeslagen in {filePath}");
+            }
+            catch (Exception ex) { throw new Exception("SchrijfKlanten", ex); }
         }
 
         // Leest alle gegevens die in txt files zijn opgeslagen (voornamen.txt -> voornamen, achternamen.txt -> achternamen,...)
@@ -164,7 +165,6 @@ namespace KlantSimulator_BL
         {
             Random r = new Random();
             return r.Next(1, 20000);
-            // TODO
         }
 
         // Genereert HuisNr 1/10 kans op letter (niet groter dan 150)
