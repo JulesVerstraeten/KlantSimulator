@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jules\\.nuget\\packages\\": {},
+    "C:\\Users\\Ceesharp\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
+      "projectUniqueName": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
       "projectName": "KlantSimulator_BL",
-      "projectPath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
-      "packagesPath": "C:\\Users\\jules\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\obj\\",
+      "projectPath": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
+      "packagesPath": "C:\\Users\\Ceesharp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jules\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ceesharp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -72,16 +72,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

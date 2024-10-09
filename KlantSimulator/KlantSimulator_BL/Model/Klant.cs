@@ -3,17 +3,52 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using KlantSimulator_BL.Exceptions;
 
 namespace KlantSimulator_BL.Model
 {
     public class Klant
     {
-        public int KlantNummer { get; }
-        public string VoorNaam { get; }
-        public string AchterNaam { get; }
+        private int klantNummer;
+
+        public int KlantNummer
+        {
+            get { return klantNummer; }
+            // private set omdat het alleen binnen de klasse moet kunnen worden aangepast (aka met de contructor in dit geval)
+            private set 
+            { // domeinexception, cuz wy not ;)
+                if (value < 0 || value > 20000) {throw new DomeinException("klant| klantnummer lag niet tussen 0 en 20000");}
+                klantNummer = value; 
+            }
+        }
+
+        private string voorNaam;
+
+        public string VoorNaam
+        {
+            get { return voorNaam; }
+            // zelfde principe als klantnummer
+            private set 
+            {
+                if(string.IsNullOrWhiteSpace(value)) { throw new DomeinException("Klant| Voornaam mag niet leeg zijn");}
+                voorNaam = value;
+            }
+        }
+
+        private string achterNaam;
+
+        public string AchterNaam
+        {
+            get { return voorNaam; }
+            // zelfde principe als klantnummer
+            private set
+            {
+                if(string.IsNullOrWhiteSpace(value)) { throw new DomeinException("Klant| Achternaam mag niet leeg zijn"); }
+                voorNaam = value;
+            }
+        }
+
         public Adres Adres { get; }
-
-
 
         public Klant(int klantNummer,string voorNaam,string achterNaam,Adres adres)
         {

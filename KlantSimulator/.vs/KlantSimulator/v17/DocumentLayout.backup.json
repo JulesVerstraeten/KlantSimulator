@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\klantsimulatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\gitreps_so\\klant_generator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\gitreps_so\\klant_generator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\model\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\gitreps_so\\klant_generator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\klantsimulator_bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\klantsimulator_bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\gitreps_so\\klant_generator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4DB4AAD-19E2-4621-920B-5551571F1960}|ConsoleAppTestManager\\ConsoleAppTestManager.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\gitreps_so\\klant_generator\\klantsimulator\\klantsimulator\\consoleapptestmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,39 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Adres.cs",
-              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Adres.cs",
-              "RelativeDocumentMoniker": "KlantSimulator_BL\\Model\\Adres.cs",
-              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Adres.cs",
-              "RelativeToolTip": "KlantSimulator_BL\\Model\\Adres.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:08:23.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Klant.cs",
-              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Klant.cs",
-              "RelativeDocumentMoniker": "KlantSimulator_BL\\Model\\Klant.cs",
-              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Klant.cs",
-              "RelativeToolTip": "KlantSimulator_BL\\Model\\Klant.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAywBEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:07:43.261Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "KlantSimulator_BL.csproj",
-              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
-              "RelativeDocumentMoniker": "KlantSimulator_BL\\KlantSimulator_BL.csproj",
-              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj",
-              "RelativeToolTip": "KlantSimulator_BL\\KlantSimulator_BL.csproj",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTestManager\\Program.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\Program.cs",
+              "RelativeToolTip": "ConsoleAppTestManager\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-05T14:07:20.052Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:31:05.597Z"
             },
             {
               "$type": "Document",
@@ -88,22 +60,35 @@
               "RelativeDocumentMoniker": "KlantSimulator_BL\\KlantSimulatorManager.cs",
               "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulatorManager.cs",
               "RelativeToolTip": "KlantSimulator_BL\\KlantSimulatorManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:06:49.572Z",
+              "WhenOpened": "2024-10-06T08:56:11.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleAppTestManager\\Program.cs",
-              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\Program.cs",
-              "RelativeToolTip": "ConsoleAppTestManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Adres.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Adres.cs",
+              "RelativeDocumentMoniker": "KlantSimulator_BL\\Model\\Adres.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Adres.cs",
+              "RelativeToolTip": "KlantSimulator_BL\\Model\\Adres.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:05:21.632Z"
+              "WhenOpened": "2024-10-06T08:47:35.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Klant.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Klant.cs",
+              "RelativeDocumentMoniker": "KlantSimulator_BL\\Model\\Klant.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\GitReps_SO\\Klant_Generator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Klant.cs",
+              "RelativeToolTip": "KlantSimulator_BL\\Model\\Klant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T08:47:19.509Z",
+              "EditorCaption": ""
             }
           ]
         }
