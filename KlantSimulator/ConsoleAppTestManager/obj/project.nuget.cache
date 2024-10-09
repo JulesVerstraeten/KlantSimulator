@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oPniYzTPALMulML/R6IV0oF1pvviwFXtj4hre8llYrarcd042UxYWP5Yf/dN6JNplaF4cY0i2swznHb3gUeG+g==",
+  "dgSpecHash": "UxeeSDir8MBXSceIS65pcVgNlSVs3Z13OmfvEg0Q/SVXaDkgRqCXa+YbB9p9M6atnHJEyatMURHK62UI8JqFfA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

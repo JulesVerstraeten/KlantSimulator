@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KlantSimulator_BL\KlantSimulator_BL.csproj" />
+  </ItemGroup>
+
 </Project>

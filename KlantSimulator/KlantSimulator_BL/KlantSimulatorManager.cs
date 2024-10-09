@@ -7,19 +7,20 @@ using System.Threading.Tasks;
 
 namespace KlantSimulator_BL
 {
-    internal class KlantSimulatorManager
+    public class KlantSimulatorManager
     {
-        private List<Klant> klanten;
+        private List<Klant> klanten = new List<Klant>();
         private List<String> voornamen;
         private List<String> achternamen;
         private List<String> straatnamen;
-        private List<String> gemeentes;
-        private List<int> postcodes;
+        private List<String> gemeentes = new List<string>();
+        private List<int> postcodes = new List<int>();
+        private string path;
 
 
-        public KlantSimulatorManager()
+        public KlantSimulatorManager(string path)
         {
-
+            this.path = path;
         }
 
         public void KlantGenerator(int amount)
@@ -37,7 +38,7 @@ namespace KlantSimulator_BL
                 string achternaam = achternamen[r.Next(achternamen.Count)];
                 string straatnaam = straatnamen[r.Next(straatnamen.Count)];
                 string huisNr = HuisNrGenerator();
-                int gemeenteIndex = r.Next(postcodes.Count);
+                int gemeenteIndex = r.Next(gemeentes.Count);
                 string gemeente = gemeentes[gemeenteIndex];
                 int postcode = postcodes[gemeenteIndex];
 
@@ -46,68 +47,109 @@ namespace KlantSimulator_BL
                 Klant klant = new Klant(klantNr, voornaam, achternaam, adres);
 
                 // Kijk of de voornaam en achternaam uniek is
-                foreach (Klant k in klanten)
+                if (klanten.Count == 0)
                 {
-                    if (k.VoorNaam != voornaam && k.AchterNaam != achternaam)
+                    klanten.Add(klant);
+                    amount--;
+
+                }
+                else
+                {
+                    if (!KlantBestaatAl(klant))
                     {
                         klanten.Add(klant);
                         amount--;
                     }
                 }
+
             }
 
+            SchrijfKlanten();
+            Console.WriteLine("Schrijven klaar!");
+            Console.WriteLine($"{klanten.Count} aantal klanten gegenereerd");
+        }
+
+        private bool KlantBestaatAl(Klant klant)
+        {
+            bool heeftVoorEnAchternaam = false;
+            foreach(Klant k in klanten)
+            {
+                if (k.VoorNaam == klant.VoorNaam && k.AchterNaam == klant.AchterNaam) { heeftVoorEnAchternaam = true; }
+            }
+            
+            bool heeftKlantNr = klanten.Any(k => k.KlantNummer == klant.KlantNummer);
+            bool heeftAdres = klanten.Any(k => k.Adres == klant.Adres);
+            if (heeftAdres
+                || heeftKlantNr
+                || heeftVoorEnAchternaam
+                )
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
         }
 
         // Schrijft alle klanten op txt file
-        public void SchrijfKlanten(string fileName)
+        private void SchrijfKlanten()
         {
-            if (File.Exists(fileName))
+            try
             {
-                File.Delete(fileName);
-            } else
-            {
-                File.Create(fileName);
-            }
-
-            foreach (Klant k in klanten) {
-                using (StreamWriter sw = new StreamWriter(fileName))
+                string filePath = path + @"\klanten.txt";
+                if (File.Exists(filePath))
                 {
-                    sw.WriteLine(k.ToString());
-                } 
-            }
+                    File.Delete(filePath);
+                }
+                else
+                {
+                    File.Create(filePath).Close();
+                }
+
+                using (StreamWriter writer = new StreamWriter(filePath))
+                {
+                    foreach (Klant line in klanten)
+                        writer.WriteLine(line.ToString());
+                }
+            }catch (Exception ex) { throw new Exception("SchrijfKlanten", ex); }
         }
 
         // Leest alle gegevens die in txt files zijn opgeslagen (voornamen.txt -> voornamen, achternamen.txt -> achternamen,...)
         // moeten we niet bij leesgegevens de namen van de bestanden meegeven als parameter
-        //postcodes en gemeentes zijn toch samen we hebben alleen 1 lijst nodig
-        public void LeesGegevens()
+        // postcodes en gemeentes zijn toch samen we hebben alleen 1 lijst nodig
+        private void LeesGegevens()
         {
             // TODO
             try
             {
-                using(StreamReader sr = new StreamReader("voornamen.txt"))
+                using(StreamReader sr = new StreamReader(path + @"\voornamen.txt"))
                 {
                     string line = sr.ReadToEnd();
                     voornamen = line.Split(',').Select(x => x.Trim()).ToList();
                 }
 
-                using(StreamReader sr = new StreamReader("achternamen.txt"))
+                using(StreamReader sr = new StreamReader(path + @"\achternamen.txt"))
                 {
                     string line = sr.ReadToEnd();
                     achternamen = line.Split(',').Select(n  => n.Trim()).ToList();
                 }
 
-                using(StreamReader sr = new StreamReader("straatnamen"))
+                using(StreamReader sr = new StreamReader(path + @"\straatnamen.txt"))
                 {
                     string line = sr.ReadToEnd();
                     straatnamen = line.Split(',').Select(l => l.Trim()).ToList();
                 }
 
-                using(StreamReader sr = new StreamReader("gemeentes"))
+                string[] lines = File.ReadAllLines(path+@"\gemeentes.txt");
+                foreach (string line in lines)
                 {
-                    string line = sr.ReadToEnd();
-                    gemeentes = line.Split(',').Select(n =>n.Trim()).ToList();
+                    string[] parts = line.Split(",");
+                    gemeentes.Add(parts[0].Trim());
+                    postcodes.Add(int.Parse(parts[1].Trim()));
+                    var x =parts[0];
+                    var z =parts[1];
                 }
+
 
             }catch (Exception ex) 
             
@@ -118,14 +160,15 @@ namespace KlantSimulator_BL
         }
 
         // Genereert klantnr op basis van voorwaarden
-        public int KlantNrGenerator()
+        private int KlantNrGenerator()
         {
+            Random r = new Random();
+            return r.Next(1, 20000);
             // TODO
         }
 
-
         // Genereert HuisNr 1/10 kans op letter (niet groter dan 150)
-        public string HuisNrGenerator()
+        private string HuisNrGenerator()
         {
             Random random = new Random();
             string nummer = random.Next(1, 50).ToString();

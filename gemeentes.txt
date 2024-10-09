@@ -1,0 +1,10 @@
+Antwerpen,2000
+Gent,9000
+Brugge,8000
+Leuven,3000
+Mechelen,2800
+Hasselt,3500
+Kortrijk,8500
+Namen,5000
+Charleroi,6000
+Luik,4000
