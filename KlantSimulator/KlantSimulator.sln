@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTestManager", "ConsoleAppTestManager\ConsoleAppTestManager.csproj", "{E4DB4AAD-19E2-4621-920B-5551571F1960}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppTestManager", "ConsoleAppTestManager\ConsoleAppTestManager.csproj", "{E4DB4AAD-19E2-4621-920B-5551571F1960}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{1233B373-085C-48DB-B027-1C276BD20A56}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlantSimulator_BL", "KlantSimulator_BL\KlantSimulator_BL.csproj", "{32C0B59D-7FD0-44A0-AF57-B66475E1D792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KlantSimulator_BL", "KlantSimulator_BL\KlantSimulator_BL.csproj", "{32C0B59D-7FD0-44A0-AF57-B66475E1D792}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
