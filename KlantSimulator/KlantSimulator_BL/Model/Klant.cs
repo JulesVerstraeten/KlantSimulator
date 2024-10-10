@@ -60,7 +60,7 @@ namespace KlantSimulator_BL.Model
 
         public override string ToString()
         {
-            return $"{KlantNummer}|{VoorNaam}|{AchterNaam}|{Adres.ToString()}";
+            return $"{KlantNummer}|{VoorNaam}|{AchterNaam}|{Adres}";
         }
 
     }

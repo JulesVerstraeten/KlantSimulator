@@ -10,3 +10,15 @@ C:\Users\jules\Documents\HoGent\SEM2\Software_Ontwerp\KlantenSimulator\KlantSimu
 C:\Users\jules\Documents\HoGent\SEM2\Software_Ontwerp\KlantenSimulator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\refint\KlantSimulator_BL.dll
 C:\Users\jules\Documents\HoGent\SEM2\Software_Ontwerp\KlantenSimulator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\KlantSimulator_BL.pdb
 C:\Users\jules\Documents\HoGent\SEM2\Software_Ontwerp\KlantenSimulator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\ref\KlantSimulator_BL.dll
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\bin\Debug\net8.0\KlantSimulator_BL.deps.json
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\bin\Debug\net8.0\KlantSimulator_BL.dll
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\bin\Debug\net8.0\KlantSimulator_BL.pdb
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\KlantSimulator_BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\KlantSimulator_BL.AssemblyInfoInputs.cache
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\KlantSimulator_BL.AssemblyInfo.cs
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\KlantSimulator_BL.csproj.CoreCompileInputs.cache
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\KlantSimulator_BL.sourcelink.json
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\KlantSimulator_BL.dll
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\refint\KlantSimulator_BL.dll
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\KlantSimulator_BL.pdb
+C:\Users\Ceesharp\HogentProgrammeren\jaar_2\Software_Ontwerp\GitReps_SO\Klant_Generator\KlantSimulator\KlantSimulator\KlantSimulator_BL\obj\Debug\net8.0\ref\KlantSimulator_BL.dll
