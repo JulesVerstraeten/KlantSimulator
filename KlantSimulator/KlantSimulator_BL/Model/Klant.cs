@@ -39,12 +39,12 @@ namespace KlantSimulator_BL.Model
 
         public string AchterNaam
         {
-            get { return voorNaam; }
+            get { return achterNaam; }
             // zelfde principe als klantnummer
             private set
             {
                 if(string.IsNullOrWhiteSpace(value)) { throw new DomeinException("Klant| Achternaam mag niet leeg zijn"); }
-                voorNaam = value;
+                achterNaam = value;
             }
         }
 

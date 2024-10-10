@@ -26,6 +26,10 @@ namespace KlantSimulator_BL
 
         public void KlantGenerator(int amount)
         {
+            if (amount > 20000)
+            {
+                throw new ManagerException("Maximaal 20.000 klanten aangeven");
+            }
             // Zet alle gegevens van txt naar variabel (voornamen, achternamen,...)
             LeesGegevens();
 
