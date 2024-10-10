@@ -10,10 +10,10 @@ namespace KlantSimulator_BL
     public class KlantSimulatorManager
     {
         private List<Klant> klanten = new List<Klant>();
-        private List<String> voornamen;
-        private List<String> achternamen;
-        private List<String> straatnamen;
-        private List<String> gemeentes = new List<string>();
+        private List<string> voornamen;
+        private List<string> achternamen;
+        private List<string> straatnamen;
+        private List<string> gemeentes = new List<string>();
         private List<int> postcodes = new List<int>();
         private string path;
 
@@ -147,8 +147,6 @@ namespace KlantSimulator_BL
                     string[] parts = line.Split(",");
                     gemeentes.Add(parts[0].Trim());
                     postcodes.Add(int.Parse(parts[1].Trim()));
-                    var x =parts[0];
-                    var z =parts[1];
                 }
 
 
@@ -164,7 +162,7 @@ namespace KlantSimulator_BL
         private int KlantNrGenerator()
         {
             Random r = new Random();
-            return r.Next(1, 20000);
+            return r.Next(1, 20001);
         }
 
         // Genereert HuisNr 1/10 kans op letter (niet groter dan 150)
