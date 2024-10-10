@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using KlantSimulator_BL.Exceptions;
 
 namespace KlantSimulator_BL
 {
@@ -112,7 +113,7 @@ namespace KlantSimulator_BL
 
                 Console.WriteLine($"Klanten opgeslagen in {filePath}");
             }
-            catch (Exception ex) { throw new Exception("SchrijfKlanten", ex); }
+            catch (Exception ex) { throw new ManagerException("SchrijfKlanten", ex); }
         }
 
         // Leest alle gegevens die in txt files zijn opgeslagen (voornamen.txt -> voornamen, achternamen.txt -> achternamen,...)
@@ -153,7 +154,7 @@ namespace KlantSimulator_BL
             }catch (Exception ex) 
             
             {
-                Console.WriteLine("Er is fout opgetreden bij het lezen van de gegevens.",ex.Message);
+                throw new ManagerException("Er is fout opgetreden bij het lezen van de gegevens.",ex);
             }
 
         }
