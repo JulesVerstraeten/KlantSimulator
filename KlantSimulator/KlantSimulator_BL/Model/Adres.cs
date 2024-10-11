@@ -8,34 +8,59 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using KlantSimulator_BL.Exceptions;
 
 namespace KlantSimulator_BL.Model {
     public class Adres {
-        private string straatnaam;
 
+        private string straatnaam;
         public string Straatnaam {
             get { return straatnaam; }
-            set { straatnaam = value; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new DomeinException("Lege straatnaam");
+                }
+                straatnaam = value;
+            }
         }
 
         private string huisNr;
         public string HuisNr {
             get { return huisNr; }
-            set { huisNr = value; }
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new DomeinException("Leeg huisnummer");
+                }
+                huisNr = value;
+            }
         }
 
         private string gemeente;
         public string Gemeente {
             get { return gemeente; }
-            set { gemeente = value; }
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new DomeinException("Lege gemeentenaam");
+                }
+                gemeente = value;
+            }
         }
 
         private int postcode;
         public int Postcode {
             get { return postcode; }
             set {
-                if (value < 1000 || value > 9999) {
-                    throw new Exception("Poscode is kleiner dan 1k of groter dan 9999");
+                if (value == null)
+                {
+                    throw new DomeinException("Lege postcode");
+                } else if (value < 1000 || value > 9999) {
+                    throw new Exception("Postcode is kleiner dan 1k of groter dan 9999");
                 } else {
                     postcode = value;
                 }
