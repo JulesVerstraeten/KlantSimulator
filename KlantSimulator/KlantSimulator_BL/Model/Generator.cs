@@ -74,6 +74,11 @@ namespace KlantSimulator_BL.Model
 
             }
 
+            foreach (Klant k in klanten)
+            {
+                Console.WriteLine(k.ToString()); 
+            }
+
             processor.SchrijfKlanten(klanten, path);
         }
 
