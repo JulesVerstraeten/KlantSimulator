@@ -10,6 +10,8 @@ namespace KlantSimulator_BL.Model
 {
     public class Generator
     {
+        private int MAX_KLANTEN = 20_000;
+
         private List<Klant> klanten = new List<Klant>();
         private IFileProcessor processor;
         private string path;
@@ -25,11 +27,12 @@ namespace KlantSimulator_BL.Model
             this.processor = processor;
         }
 
+        // Genereert klanten
         public void KlantGenerator(int amount)
         {
             LeesGegevens(path);
 
-            if (amount > 20000)
+            if (amount > MAX_KLANTEN)
             {
                 throw new ManagerException("Maximaal 20.000 klanten aangeven");
             }
@@ -82,20 +85,9 @@ namespace KlantSimulator_BL.Model
             {
                 if (k.VoorNaam == klant.VoorNaam && k.AchterNaam == klant.AchterNaam) { heeftVoorEnAchternaam = true; }
             }
-
             bool heeftKlantNr = klanten.Any(k => k.KlantNummer == klant.KlantNummer);
             bool heeftAdres = klanten.Any(k => k.Adres == klant.Adres);
-            if (heeftAdres
-                || heeftKlantNr
-                || heeftVoorEnAchternaam
-                )
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            if (heeftAdres || heeftKlantNr || heeftVoorEnAchternaam) { return true; } else return false;
         }
 
         // Genereert klantnr op basis van voorwaarden

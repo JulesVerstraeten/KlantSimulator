@@ -11,7 +11,6 @@ namespace KlantSimulator_BL
 {
     public class KlantSimulatorManager
     {
-        
         private string path;
         public IFileProcessor Processor;
 
