@@ -39,8 +39,6 @@ namespace KlantSimulator_DL_File
         }
 
         // Leest alle gegevens die in txt files zijn opgeslagen (voornamen.txt -> voornamen, achternamen.txt -> achternamen,...)
-        // moeten we niet bij leesgegevens de namen van de bestanden meegeven als parameter
-        // postcodes en gemeentes zijn toch samen we hebben alleen 1 lijst nodig
         public List<string> LeesVoornamen(string path)
         {
             List<string> voornamen = new List<string>();

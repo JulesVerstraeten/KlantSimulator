@@ -11,6 +11,9 @@ namespace KlantSimulator_BL.Model
     public class Generator
     {
         private int MAX_KLANTEN = 20_000;
+        private int KANS_OP_LETTER = 10;
+        private int MAX_HUISNR = 50;
+        private char MAX_CHAR_HUISNR = 'z';
 
         private List<Klant> klanten = new List<Klant>();
         private IFileProcessor processor;
@@ -73,7 +76,6 @@ namespace KlantSimulator_BL.Model
                 }
 
             }
-
             foreach (Klant k in klanten)
             {
                 Console.WriteLine(k.ToString()); 
@@ -106,17 +108,18 @@ namespace KlantSimulator_BL.Model
         private string HuisNrGenerator()
         {
             Random random = new Random();
-            string nummer = random.Next(1, 50).ToString();
-            int letterNodig = random.Next(1, 11);
+            string nummer = random.Next(1, MAX_HUISNR).ToString();
+            int letterNodig = random.Next(1, KANS_OP_LETTER);
             if (letterNodig == 1)
             {
-                char randomLetter = (char)random.Next('a', 'z' + 1);
+                char randomLetter = (char)random.Next('a', MAX_CHAR_HUISNR + 1);
                 nummer += randomLetter;
             }
 
             return nummer;
         }
 
+        // Leest alle gegevens die in txt files zijn opgeslagen (voornamen.txt -> voornamen, achternamen.txt -> achternamen,...)
         private void LeesGegevens(string path)
         {
             voornamen = processor.LeesVoornamen(path);
