@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/KlantSimulator_BL.dll": {}
         }
+      },
+      "KlantSimulator_DL_File/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "KlantSimulator_BL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KlantSimulator_DL_File.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KlantSimulator_DL_File.dll": {}
+        }
       }
     }
   },
@@ -19,27 +32,38 @@
       "type": "project",
       "path": "../KlantSimulator_BL/KlantSimulator_BL.csproj",
       "msbuildProject": "../KlantSimulator_BL/KlantSimulator_BL.csproj"
+    },
+    "KlantSimulator_DL_File/1.0.0": {
+      "type": "project",
+      "path": "../KlantSimulator_DL_File/KlantSimulator_DL_File.csproj",
+      "msbuildProject": "../KlantSimulator_DL_File/KlantSimulator_DL_File.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "KlantSimulator_BL >= 1.0.0"
+      "KlantSimulator_BL >= 1.0.0",
+      "KlantSimulator_DL_File >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP VICTUS\\.nuget\\packages\\": {}
+    "C:\\Users\\jules\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
+      "projectUniqueName": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
       "projectName": "ConsoleAppTestManager",
-      "projectPath": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
-      "packagesPath": "C:\\Users\\HP VICTUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\obj\\",
+      "projectPath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
+      "packagesPath": "C:\\Users\\jules\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\HP VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jules\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -47,14 +71,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj": {
-              "projectPath": "C:\\Users\\HP VICTUS\\Documents\\-School\\SoftwareOntwerp 2\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj"
+            "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj": {
+              "projectPath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulator_BL.csproj"
+            },
+            "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_DL_File\\KlantSimulator_DL_File.csproj": {
+              "projectPath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_DL_File\\KlantSimulator_DL_File.csproj"
             }
           }
         }
@@ -89,7 +117,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,10 +1,100 @@
-11647|Lander|Maes|Watermolenstraat|49|Namen|5000
-13193|Manon|De Bock|Brugstraat|15|Antwerpen|2000
-11101|Jana|Vermeulen|Sasstraat|42|Namen|5000
-17397|Flor|Smet|Fabriekstraat|41|Kortrijk|8500
-9986|Joran|Moens|Beukenlaan|26|Luik|4000
-19431|Ellen|Van Acker|Heuvelstraat|33|Brugge|8000
-10922|Klaas|Verhelst|Bloemenstraat|43|Gent|9000
-4434|Ruben|Coeckelberghs|Abdijstraat|36|Luik|4000
-11983|Mathis|Lenaerts|Bloemenstraat|7|Luik|4000
-1377|Emma|Hermans|Rozenlaan|49|Gent|9000
+11658|Flor|Smets|Wijkstraat|3|Hasselt|3500
+12311|Liam|De Bondt|Leiestraat|34|Kortrijk|8500
+7010|Lars|Renders|Brandstraat|9|Luik|4000
+17293|Jolien|Verschueren|Binnenweg|40n|Mechelen|2800
+14964|Julie|Verhelst|Muizendreef|8|Hasselt|3500
+8142|Lien|Thijs|Stationsdreef|13|Namen|5000
+11093|Noor|De Schepper|Krijgsbaan|32|Charleroi|6000
+15897|Pauline|Coenen|Oeverstraat|16|Gent|9000
+13942|Rune|Decock|Ieperstraat|29|Charleroi|6000
+7964|Maite|Timmermans|Guldenstraat|10|Gent|9000
+13177|Daan|Wouters|Brugstraat|34|Leuven|3000
+13549|Mathis|De Leeuw|Heuvelstraat|49|Mechelen|2800
+10736|Freya|Verschueren|Bloemstraat|38a|Kortrijk|8500
+8304|Fien|Luyckx|Rozenlaan|3|Brugge|8000
+1574|Kevin|Verhelst|Stokerijstraat|46|Hasselt|3500
+4191|Noah|Stevens|Meersstraat|31|Gent|9000
+2578|Emilie|Verbeke|Schoolstraat|47|Luik|4000
+6900|Marthe|Van den Bossche|Duinenstraat|38|Hasselt|3500
+3760|Hanne|Segers|Boterberg|15|Gent|9000
+16334|Jasmijn|Jansen|Molenveld|20|Mechelen|2800
+19356|Brent|Bogaerts|Zonnestraat|31|Namen|5000
+11526|Noah|Smets|Vijverslaan|26l|Antwerpen|2000
+18112|Ilse|Devos|Meersstraat|29|Kortrijk|8500
+4595|Lucas|Lenaerts|Stokerijstraat|23|Brugge|8000
+10655|Sam|De Winter|Meersstraat|21|Mechelen|2800
+2454|Brent|Vermeire|Essendreef|48|Brugge|8000
+2109|Sander|Van Looy|Poststraat|14|Hasselt|3500
+5871|Silke|Vandenberghe|Rivierstraat|48|Luik|4000
+16731|Sander|De Pooter|Molenveld|38|Charleroi|6000
+12395|Willem|Van Dyck|Parklaan|41|Mechelen|2800
+1779|Rune|Lambert|Oudstrijdersstraat|10|Antwerpen|2000
+11826|Noor|Boelens|Kattenberg|10|Brugge|8000
+14690|Axelle|Verschueren|Eikenbosstraat|4|Kortrijk|8500
+5204|Tine|Deckers|Korenstraat|20|Antwerpen|2000
+8981|Elise|Willems|Melkerijstraat|4|Brugge|8000
+14275|Marie|De Waele|Lindedreef|22|Namen|5000
+17954|Stijn|Verbruggen|Oeverstraat|10|Luik|4000
+16591|Maxim|Schepers|Hoogstraat|23|Brugge|8000
+9010|Noah|Claes|Elzenstraat|22|Luik|4000
+2192|Victor|Van Acker|Eendrachtstraat|2|Hasselt|3500
+3549|Lukas|Stas|Dijkstraat|12|Luik|4000
+12590|Ward|Jacobs|Wijkstraat|22|Brugge|8000
+6446|Sarah|De Schepper|Heuvelstraat|7|Hasselt|3500
+12021|Hanne|Verbruggen|Oeverstraat|32|Gent|9000
+683|Margot|Boussery|Lijsterbeslaan|47|Luik|4000
+15774|Silke|Vandenbroucke|Heirweg|30|Namen|5000
+15956|Lara|Schelfhout|Bergstraat|41|Luik|4000
+7089|Charlotte|Muylaert|Kerkdreef|13|Antwerpen|2000
+7076|Bram|Van Hoof|Bergstraat|25|Luik|4000
+4183|Seppe|Swerts|Brugstraat|23|Luik|4000
+19595|Louis|Ceulemans|Astridlaan|31|Kortrijk|8500
+12401|Joppe|Vercammen|Kastanjelaan|28|Luik|4000
+8937|Lenn|De Wilde|Aardstraat|5|Charleroi|6000
+3300|Senna|Coeckelberghs|Parklaan|40|Namen|5000
+4949|Wout|Van Damme|Brandstraat|16|Luik|4000
+10609|Julie|Verstraete|Abdijstraat|42i|Hasselt|3500
+18881|Emma|Van de Putte|Oudstrijdersstraat|45|Brugge|8000
+14770|Naomi|Van Genechten|Abdijstraat|23|Mechelen|2800
+14854|Lenn|Verhoeven|Steenakker|21|Brugge|8000
+13472|Marthe|Vandenbossche|Bloemstraat|40|Mechelen|2800
+1794|Jelle|Van Genechten|Kasteelhof|48|Brugge|8000
+14813|Joppe|De Cock|Grote Markt|26p|Antwerpen|2000
+16459|Zita|De Winter|Krijgsbaan|23|Luik|4000
+17637|Ruben|Janssens|Koning Albertstraat|41|Mechelen|2800
+4396|Lise|Wauters|Ezelstraat|12|Leuven|3000
+17999|Jana|Lenaerts|Seringenlaan|13|Luik|4000
+4397|Elise|Van de Velde|Muntstraat|27h|Namen|5000
+3508|Jasper|De Smet|Torenstraat|43|Gent|9000
+18262|Manon|Vercammen|Kloosterstraat|41b|Namen|5000
+7758|Louise|Meersman|Zwarteweg|20|Luik|4000
+7382|Mathis|De Waele|Klaproosstraat|42|Luik|4000
+1182|Jasmijn|Devos|Stationsplein|49|Luik|4000
+4815|Yana|Van den Broeck|Spoorlaan|48|Kortrijk|8500
+6437|Lenn|Merckx|Krijgsbaan|27|Charleroi|6000
+8353|Tim|De Witte|Ieperstraat|18|Kortrijk|8500
+19564|Mila|Vandamme|Platanenstraat|42|Mechelen|2800
+19956|Bent|Dillen|Kerkhofstraat|30|Namen|5000
+18061|Olivia|Timmermans|Kerkstraat|48|Kortrijk|8500
+8203|Maite|Van de Putte|Bloemenstraat|35h|Gent|9000
+7283|Zita|Putman|Korenbloemstraat|37|Namen|5000
+14701|Nore|Van den Broeck|Dorp|12|Luik|4000
+5312|Kato|Martens|Bloemstraat|1|Kortrijk|8500
+10313|Sander|Vervoort|Leeuwstraat|35d|Namen|5000
+19234|Marie|De Man|Nieuwstraat|34|Antwerpen|2000
+15652|Yana|Deckers|Sportstraat|13|Mechelen|2800
+9176|Jef|Bruggeman|Binnenweg|47q|Antwerpen|2000
+9687|Aline|Rombouts|Sasstraat|24|Brugge|8000
+5481|Emma|Van Damme|Middelstraat|32|Brugge|8000
+7451|Ella|Van Dyck|Veldstraat|34|Brugge|8000
+19486|Quinten|De Man|Kastanjestraat|11|Brugge|8000
+13453|Louise|Dreesen|Elzenstraat|37|Hasselt|3500
+12405|Ine|Vercammen|Bloemenstraat|28|Kortrijk|8500
+11362|Amber|Van Hove|Polderstraat|44|Luik|4000
+1151|Lara|Schrijvers|Torenstraat|1|Gent|9000
+21|Merel|Lammens|Eendrachtstraat|39|Antwerpen|2000
+3796|Aaron|Boonen|Wilgenlaan|46|Luik|4000
+19337|Aaron|Van Damme|Zwaluwstraat|36|Antwerpen|2000
+7346|Robbe|Swerts|Wolvenstraat|5|Hasselt|3500
+7117|Seppe|De Leeuw|Brandstraat|16|Brugge|8000
+5723|Lander|Desmet|Vaartstraat|23|Leuven|3000

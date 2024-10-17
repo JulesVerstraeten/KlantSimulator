@@ -55,3 +55,5 @@ C:\Users\HP VICTUS\Documents\-School\SoftwareOntwerp 2\KlantSimulator\KlantSimul
 C:\Users\HP VICTUS\Documents\-School\SoftwareOntwerp 2\KlantSimulator\KlantSimulator\ConsoleAppTestManager\obj\Debug\net8.0\ConsoleAppTestManager.pdb
 C:\Users\HP VICTUS\Documents\-School\SoftwareOntwerp 2\KlantSimulator\KlantSimulator\ConsoleAppTestManager\obj\Debug\net8.0\ConsoleAppTestManager.genruntimeconfig.cache
 C:\Users\HP VICTUS\Documents\-School\SoftwareOntwerp 2\KlantSimulator\KlantSimulator\ConsoleAppTestManager\obj\Debug\net8.0\ref\ConsoleAppTestManager.dll
+C:\Users\jules\Documents\HoGent\SEM2\Software_Ontwerp\KlantenSimulator\KlantSimulator\KlantSimulator\ConsoleAppTestManager\bin\Debug\net8.0\KlantSimulator_DL_File.dll
+C:\Users\jules\Documents\HoGent\SEM2\Software_Ontwerp\KlantenSimulator\KlantSimulator\KlantSimulator\ConsoleAppTestManager\bin\Debug\net8.0\KlantSimulator_DL_File.pdb

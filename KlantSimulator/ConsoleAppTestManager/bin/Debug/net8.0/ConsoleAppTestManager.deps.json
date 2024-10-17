@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "ConsoleAppTestManager/1.0.0": {
         "dependencies": {
-          "KlantSimulator_BL": "1.0.0"
+          "KlantSimulator_BL": "1.0.0",
+          "KlantSimulator_DL_File": "1.0.0"
         },
         "runtime": {
           "ConsoleAppTestManager.dll": {}
@@ -17,6 +18,14 @@
       "KlantSimulator_BL/1.0.0": {
         "runtime": {
           "KlantSimulator_BL.dll": {}
+        }
+      },
+      "KlantSimulator_DL_File/1.0.0": {
+        "dependencies": {
+          "KlantSimulator_BL": "1.0.0"
+        },
+        "runtime": {
+          "KlantSimulator_DL_File.dll": {}
         }
       }
     }
@@ -28,6 +37,11 @@
       "sha512": ""
     },
     "KlantSimulator_BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KlantSimulator_DL_File/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

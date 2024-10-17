@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KlantSimulator_BL\KlantSimulator_BL.csproj" />
+    <ProjectReference Include="..\KlantSimulator_DL_File\KlantSimulator_DL_File.csproj" />
   </ItemGroup>
 
 </Project>
