@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\",
+  "WorkspaceRootPath": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4DB4AAD-19E2-4621-920B-5551571F1960}|ConsoleAppTestManager\\ConsoleAppTestManager.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\consoleapptestmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4DB4AAD-19E2-4621-920B-5551571F1960}|ConsoleAppTestManager\\ConsoleAppTestManager.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\klantsimulator\\klantsimulator\\consoleapptestmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4DB4AAD-19E2-4621-920B-5551571F1960}|ConsoleAppTestManager\\ConsoleAppTestManager.csproj|solutionrelative:consoleapptestmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\model\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\klantsimulatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\klantsimulatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD972542-4970-4891-8FCC-424EAF474090}|KlantSimulator_DL_File\\KlantSimulator_DL_File.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_dl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD972542-4970-4891-8FCC-424EAF474090}|KlantSimulator_DL_File\\KlantSimulator_DL_File.csproj|solutionrelative:klantsimulator_dl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\model\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\model\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\interface\\ifileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\klantsimulator\\klantsimulator\\klantsimulator_bl\\model\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\model\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\klantsimulator\\klantsimulator\\klantsimulator_bl\\klantsimulatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\klantsimulatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD972542-4970-4891-8FCC-424EAF474090}|KlantSimulator_DL_File\\KlantSimulator_DL_File.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\klantsimulator\\klantsimulator\\klantsimulator_dl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD972542-4970-4891-8FCC-424EAF474090}|KlantSimulator_DL_File\\KlantSimulator_DL_File.csproj|solutionrelative:klantsimulator_dl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\klantsimulator\\klantsimulator\\klantsimulator_bl\\interface\\ifileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\interface\\ifileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\exception\\managerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\klantsimulator\\klantsimulator\\klantsimulator_bl\\exception\\managerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\exception\\managerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4DB4AAD-19E2-4621-920B-5551571F1960}|ConsoleAppTestManager\\ConsoleAppTestManager.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\consoleapptestmanager\\consoleapptestmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{E4DB4AAD-19E2-4621-920B-5551571F1960}|ConsoleAppTestManager\\ConsoleAppTestManager.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\klantsimulator\\klantsimulator\\consoleapptestmanager\\consoleapptestmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E4DB4AAD-19E2-4621-920B-5551571F1960}|ConsoleAppTestManager\\ConsoleAppTestManager.csproj|solutionrelative:consoleapptestmanager\\consoleapptestmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\jules\\documents\\hogent\\sem2\\software_ontwerp\\klantensimulator\\klantsimulator\\klantsimulator\\klantsimulator_bl\\exception\\domeinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|c:\\users\\ceesharp\\hogentprogrammeren\\jaar_2\\software_ontwerp\\klantsimulator\\klantsimulator\\klantsimulator_bl\\exception\\domeinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C0B59D-7FD0-44A0-AF57-B66475E1D792}|KlantSimulator_BL\\KlantSimulator_BL.csproj|solutionrelative:klantsimulator_bl\\exception\\domeinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,16 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -69,14 +61,26 @@
               "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Generator.cs",
-              "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Generator.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Generator.cs",
               "RelativeDocumentMoniker": "KlantSimulator_BL\\Model\\Generator.cs",
-              "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Generator.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Generator.cs",
               "RelativeToolTip": "KlantSimulator_BL\\Model\\Generator.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAAE4AAAAxAAAA",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwFMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T07:39:00.386Z",
               "EditorCaption": ""
@@ -85,24 +89,24 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "IFileProcessor.cs",
-              "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Interface\\IFileProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Interface\\IFileProcessor.cs",
               "RelativeDocumentMoniker": "KlantSimulator_BL\\Interface\\IFileProcessor.cs",
-              "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Interface\\IFileProcessor.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Interface\\IFileProcessor.cs",
               "RelativeToolTip": "KlantSimulator_BL\\Interface\\IFileProcessor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T07:22:09.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FileProcessor.cs",
-              "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_DL_File\\FileProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_DL_File\\FileProcessor.cs",
               "RelativeDocumentMoniker": "KlantSimulator_DL_File\\FileProcessor.cs",
-              "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_DL_File\\FileProcessor.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_DL_File\\FileProcessor.cs",
               "RelativeToolTip": "KlantSimulator_DL_File\\FileProcessor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIcAAAAJAAAA",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T07:21:21.4Z",
               "EditorCaption": ""
@@ -111,9 +115,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ConsoleAppTestManager.csproj",
-              "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
               "RelativeDocumentMoniker": "ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
-              "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
               "RelativeToolTip": "ConsoleAppTestManager\\ConsoleAppTestManager.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -123,76 +127,74 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ManagerException.cs",
-              "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Exception\\ManagerException.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Exception\\ManagerException.cs",
               "RelativeDocumentMoniker": "KlantSimulator_BL\\Exception\\ManagerException.cs",
-              "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Exception\\ManagerException.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Exception\\ManagerException.cs",
               "RelativeToolTip": "KlantSimulator_BL\\Exception\\ManagerException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T06:25:49.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T06:25:49.187Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "DomeinException.cs",
-              "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Exception\\DomeinException.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Exception\\DomeinException.cs",
               "RelativeDocumentMoniker": "KlantSimulator_BL\\Exception\\DomeinException.cs",
-              "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Exception\\DomeinException.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Exception\\DomeinException.cs",
               "RelativeToolTip": "KlantSimulator_BL\\Exception\\DomeinException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T19:32:33.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T19:32:33.074Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleAppTestManager\\Program.cs",
-              "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\Program.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\ConsoleAppTestManager\\Program.cs",
               "RelativeToolTip": "ConsoleAppTestManager\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABCAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T18:31:05.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "KlantSimulatorManager.cs",
-              "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulatorManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulatorManager.cs",
               "RelativeDocumentMoniker": "KlantSimulator_BL\\KlantSimulatorManager.cs",
-              "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulatorManager.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\KlantSimulatorManager.cs",
               "RelativeToolTip": "KlantSimulator_BL\\KlantSimulatorManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAANAAAA",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAEwBsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T08:56:11.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Adres.cs",
-              "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Adres.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Adres.cs",
               "RelativeDocumentMoniker": "KlantSimulator_BL\\Model\\Adres.cs",
-              "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Adres.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Adres.cs",
               "RelativeToolTip": "KlantSimulator_BL\\Model\\Adres.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBwAAAAeAAAA",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T08:47:35.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Klant.cs",
-              "DocumentMoniker": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Klant.cs",
+              "DocumentMoniker": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Klant.cs",
               "RelativeDocumentMoniker": "KlantSimulator_BL\\Model\\Klant.cs",
-              "ToolTip": "C:\\Users\\jules\\Documents\\HoGent\\SEM2\\Software_Ontwerp\\KlantenSimulator\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Klant.cs",
+              "ToolTip": "C:\\Users\\Ceesharp\\HogentProgrammeren\\jaar_2\\Software_Ontwerp\\KlantSimulator\\KlantSimulator\\KlantSimulator_BL\\Model\\Klant.cs",
               "RelativeToolTip": "KlantSimulator_BL\\Model\\Klant.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T08:47:19.509Z",
               "EditorCaption": ""

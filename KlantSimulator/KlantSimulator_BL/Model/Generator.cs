@@ -10,7 +10,7 @@ namespace KlantSimulator_BL.Model
 {
     public class Generator
     {
-        private int MAX_KLANTEN = 20_000;
+        private int MAX_KLANTEN = 50_000;
         private int KANS_OP_LETTER = 10;
         private int MAX_HUISNR = 50;
         private char MAX_CHAR_HUISNR = 'z';
@@ -37,7 +37,7 @@ namespace KlantSimulator_BL.Model
 
             if (amount > MAX_KLANTEN)
             {
-                throw new ManagerException("Maximaal 20.000 klanten aangeven");
+                throw new ManagerException("Maximaal 50.000 klanten aangeven");
             }
             // Zet alle gegevens van txt naar variabel (voornamen, achternamen,...)
 
@@ -101,7 +101,7 @@ namespace KlantSimulator_BL.Model
         private int KlantNrGenerator()
         {
             Random r = new Random();
-            return r.Next(1, 20001);
+            return r.Next(1, 50001);
         }
 
         // Genereert HuisNr 1/10 kans op letter (niet groter dan 150)

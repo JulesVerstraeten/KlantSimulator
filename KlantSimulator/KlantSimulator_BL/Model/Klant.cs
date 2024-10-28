@@ -17,7 +17,7 @@ namespace KlantSimulator_BL.Model
             // private set omdat het alleen binnen de klasse moet kunnen worden aangepast (aka met de contructor in dit geval)
             private set 
             { // domeinexception, cuz wy not ;)
-                if (value < 0 || value > 20000) {throw new DomeinException("klant| klantnummer lag niet tussen 0 en 20000");}
+                if (value < 0 || value > 50000) {throw new DomeinException("klant| klantnummer lag niet tussen 0 en 20000");}
                 klantNummer = value; 
             }
         }

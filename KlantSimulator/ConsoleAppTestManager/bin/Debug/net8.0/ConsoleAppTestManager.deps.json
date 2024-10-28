@@ -17,7 +17,10 @@
       },
       "KlantSimulator_BL/1.0.0": {
         "runtime": {
-          "KlantSimulator_BL.dll": {}
+          "KlantSimulator_BL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "KlantSimulator_DL_File/1.0.0": {
@@ -25,7 +28,10 @@
           "KlantSimulator_BL": "1.0.0"
         },
         "runtime": {
-          "KlantSimulator_DL_File.dll": {}
+          "KlantSimulator_DL_File.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

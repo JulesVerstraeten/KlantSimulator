@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KlantSimulator_BL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5ccdbb7b2f9df604cc22095d92b70e7f6ec371b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+084cc5fce401fdded099b36e55f828d40bf91a73")]
 [assembly: System.Reflection.AssemblyProductAttribute("KlantSimulator_BL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KlantSimulator_BL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
