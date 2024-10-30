@@ -37,7 +37,7 @@ namespace KlantSimulator_BL.Model
 
             if (amount > MAX_KLANTEN)
             {
-                throw new ManagerException("Maximaal 50.000 klanten aangeven");
+                throw new Exception($"Maximaal {MAX_KLANTEN} klanten aangeven");
             }
             // Zet alle gegevens van txt naar variabel (voornamen, achternamen,...)
 
